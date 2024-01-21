@@ -10,17 +10,17 @@ import { Navbar } from "./components/ui/import";
 
 const App = () => {
   return (
-    <div>
+    <>
       <Navbar />
 
-      <div>
+      <main>
         <Hero />
         <Skills />
         <Projects />
         <Contact />
-        <Footer />
-      </div>
-    </div>
+      </main>
+      <Footer />
+    </>
   );
 };
 
