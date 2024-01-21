@@ -1,7 +1,7 @@
 import React from "react";
 
 const contact = () => {
-  return <div>contact</div>;
+  return <section className="min-h-[84vh] lg:min-h-screen">Contact</section>;
 };
 
 export default contact;

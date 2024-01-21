@@ -10,7 +10,7 @@ import { Navbar } from "./components/ui/import";
 
 const App = () => {
   return (
-    <div>
+    <div className="bg-primary w-full">
       <div>
         <Navbar />
       </div>
