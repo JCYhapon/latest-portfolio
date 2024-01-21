@@ -1,7 +1,7 @@
-import contact from "./contact";
-import footer from "./footer";
-import hero from "./hero";
-import projects from "./projects";
-import skills from "./skills";
+import Contact from "./contact";
+import Footer from "./footer";
+import Hero from "./hero";
+import Projects from "./projects";
+import Skills from "./skills";
 
-export { contact, footer, hero, projects, skills };
+export { Contact, Footer, Hero, Projects, Skills };
