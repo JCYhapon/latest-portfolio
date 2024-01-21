@@ -10,10 +10,9 @@ import { Navbar } from "./components/ui/import";
 
 const App = () => {
   return (
-    <div className=" w-full">
-      <div className="bg-beige">
-        <Navbar />
-      </div>
+    <div>
+      <Navbar />
+
       <div>
         <Hero />
         <Skills />

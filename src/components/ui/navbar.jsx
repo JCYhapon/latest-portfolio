@@ -6,39 +6,29 @@ import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
 const navbar = () => {
   return (
-    <nav>
-      <div className="flex justify-between container mx-auto py-8">
-        <div className="">
-          <ul className="flex justify-between items-center gap-8">
-            <li className="text-gray">
-              <a href="#about">About</a>
-            </li>
-            <li className="text-brown">
-              <a href="#skills">Skills</a>
-            </li>
-            <li className="text-brown">
-              <a href="#projects">Projects</a>
-            </li>
-            <li className="text-brown">
-              <a href="#contact">Contact</a>
-            </li>
-          </ul>
+    <div>
+      <div className="header">
+        <div className="menu">
+          <nav>
+            <ul>
+              <li>
+                <a href="#about">About</a>
+              </li>
+              <li>
+                <a href="#skills">Skills</a>
+              </li>
+              <li>
+                <a href="#projects">Project</a>
+              </li>
+              <li>
+                <a href="#contact">Contact</a>
+              </li>
+            </ul>
+          </nav>
         </div>
-
-        <div>
-          <ul className="flex gap-3">
-            <li>
-              <a href=""></a>
-              <FontAwesomeIcon icon={faSquareGithub} className=" w-6 h-6" />
-            </li>
-            <li>
-              <a href=""></a>
-              <FontAwesomeIcon icon={faLinkedin} className=" w-6 h-6" />
-            </li>
-          </ul>
-        </div>
+        <div className="social"></div>
       </div>
-    </nav>
+    </div>
   );
 };
 
