@@ -1,17 +1,26 @@
 import React from "react";
 import {
-  contact,
-  hero,
-  footer,
-  projects,
-  skills,
+  Contact,
+  Hero,
+  Footer,
+  Projects,
+  Skills,
 } from "./components/sections/import";
-import { navbar } from "./components/ui/import";
+import { Navbar } from "./components/ui/import";
 
 const App = () => {
   return (
     <div>
-      <navbar />
+      <div>
+        <Navbar />
+      </div>
+      <div>
+        <Hero />
+        <Skills />
+        <Projects />
+        <Contact />
+        <Footer />
+      </div>
     </div>
   );
 };
