@@ -26,7 +26,20 @@ const navbar = () => {
             </ul>
           </nav>
         </div>
-        <div className="social"></div>
+        <div className="social">
+          <ul>
+            <li>
+              <a href="">
+                <FontAwesomeIcon icon={faSquareGithub} />
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <FontAwesomeIcon icon={faLinkedin} />
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
   );
