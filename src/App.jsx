@@ -6,6 +6,7 @@ import {
   projects,
   skills,
 } from "./components/sections/import";
+import { navbar } from "./components/ui/import";
 
 const App = () => {
   return (
