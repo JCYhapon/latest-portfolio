@@ -1,12 +1,17 @@
 import React from "react";
+import {
+  contact,
+  hero,
+  footer,
+  projects,
+  skills,
+} from "./components/sections/import";
 
 const App = () => {
   return (
-    <header className="bg-black">
-      <nav>
-        <div className="container"></div>
-      </nav>
-    </header>
+    <div>
+      <navbar />
+    </div>
   );
 };
 
