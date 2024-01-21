@@ -2,7 +2,18 @@
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        beige: "#EAE7DC",
+        brown: "#D8C3A5",
+        gray: "8E8D8A",
+        lightgreen: "#85DCB",
+        darkgreen: "#41B3A3",
+      },
+      fontFamily: {
+        poppins: ["Poppins", "sans-serif"],
+      },
+    },
     screens: {
       xs: "480px",
       ss: "620px",
