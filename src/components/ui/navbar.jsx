@@ -22,10 +22,8 @@ const Navbar = () => {
   }, []);
 
   return (
-    <nav>
-      <div
-        className={header ? "fixed w-full h-full bg-beige" : "bg-transparent"}
-      >
+    <nav className="sticky top-[20px]">
+      <div className={header ? "bg-beige" : "bg-transparent"}>
         {/* PARENT */}
         <div className="header flex w-[70%] sm:w-[90%] lg:w-[70%] justify-between m-auto mt-[40px] mb-[30px]">
           {/* FIRST CHILD */}

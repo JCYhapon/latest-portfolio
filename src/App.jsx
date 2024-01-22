@@ -10,7 +10,7 @@ import { Navbar } from "./components/ui/import";
 
 const App = () => {
   return (
-    <>
+    <div>
       <Navbar />
 
       <main>
@@ -20,7 +20,7 @@ const App = () => {
         <Contact />
         <Footer />
       </main>
-    </>
+    </div>
   );
 };
 
