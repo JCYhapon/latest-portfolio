@@ -8,21 +8,37 @@ const Navbar = () => {
     <header className="bg-white sticky">
       <nav className="flex justify-between container mx-auto w-[63%] py-10 ">
         <div>
-          <span className="font-kanit font-600">@JCYhapon</span>
+          <span className="font-kanit font-bold tracking-wider text-primaryFont">
+            @JCYhapon
+          </span>
         </div>
         <div>
           <ul className="flex gap-8">
             <li>
-              <a href="#about">About</a>
+              <a href="#about" className="font-kanit font-bold tracking-wider">
+                home
+              </a>
             </li>
             <li>
-              <a href="#skills">Skills</a>
+              <a href="#skills" className="font-kanit font-bold tracking-wider">
+                skills
+              </a>
             </li>
             <li>
-              <a href="#projects">Projects</a>
+              <a
+                href="#projects"
+                className="font-kanit font-bold tracking-wider"
+              >
+                project
+              </a>
             </li>
             <li>
-              <a href="#contact">Contact</a>
+              <a
+                href="#contact"
+                className="font-kanit font-bold tracking-wider"
+              >
+                contact
+              </a>
             </li>
           </ul>
         </div>

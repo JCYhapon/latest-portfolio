@@ -9,6 +9,8 @@ export default {
         gray: "8E8D8A",
         lightgreen: "#85DCB",
         darkgreen: "#41B3A3",
+        main: "#f0fffd",
+        primaryFont: "#344d40",
       },
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
