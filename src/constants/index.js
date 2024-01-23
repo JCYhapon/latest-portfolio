@@ -16,3 +16,11 @@ export const navLinks = [
     title: "Contact",
   },
 ];
+
+export const intro = [
+  {
+    id: "hero-intro",
+    subHeading: "Hello, they call me Yhaps.",
+    heading: "I craft and develop things for the web.",
+  },
+];

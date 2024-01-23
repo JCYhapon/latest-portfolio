@@ -1,7 +1,11 @@
 import React from "react";
 
 const projects = () => {
-  return <div>projects</div>;
+  return (
+    <section id="projects" className="min-h-screen">
+      projects
+    </section>
+  );
 };
 
 export default projects;

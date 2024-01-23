@@ -6,7 +6,7 @@ import { faSquareGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 const Navbar = () => {
   return (
     <header className=" sticky">
-      <nav className="flex justify-between container mx-auto w-[63%] py-10 ">
+      <nav className="flex justify-between container mx-auto w-[63%] py-8 ">
         <div>
           <span className="font-kanit font-bold tracking-wider text-primaryFont">
             @JCYhapon
