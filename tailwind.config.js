@@ -14,6 +14,14 @@ export default {
         poppins: ["Poppins", "sans-serif"],
         kanit: ["Kanit", "sans-serif"],
       },
+      fontWeight: {
+        thin: 100,
+        light: 300,
+        normal: 400,
+        semibold: 500,
+        bold: 700,
+        extrabold: 900,
+      },
     },
     screens: {
       xs: "480px",
