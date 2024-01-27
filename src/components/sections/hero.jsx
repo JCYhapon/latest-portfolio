@@ -16,7 +16,7 @@ const hero = () => {
               Hello, they call me Yhaps.
             </span>
             <h1 className="text-[62px] font-extrabold text-primaryFont drop-shadow-md leading-[5rem]">
-              I <span className="text-[#00CC66]">craft</span> and{" "}
+              I <span className="text-[#00CC66]">design</span> and{" "}
               <span className="text-[#00CC66]">develop</span> things for the
               web.
             </h1>
