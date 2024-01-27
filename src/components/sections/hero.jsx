@@ -8,15 +8,12 @@ const hero = () => {
   return (
     <section
       id="about"
-      className="w-[60%] lg:min-h-[88vh] container mx-auto flex flex-row items-center justify-center"
+      className="w-[60%] lg:min-h-[80vh] container mx-auto flex flex-row items-center justify-center"
     >
       <div className="flex items-center gap-5">
-        <div>
-          <img src={me} alt="" />
-        </div>
-        <div>
+        <div className="bottom-5">
           <div>
-            <span className="text-[22px] font-kanit font-bold tracking-wider text-primaryFont mb-[5rem]">
+            <span className="text-[22px] font-kanit font-bold tracking-wider text-primaryFont mb-[10rem]">
               Hello, they call me Yhaps.
             </span>
             <h1 className="text-[62px] font-extrabold text-primaryFont drop-shadow-md leading-[5rem]">
