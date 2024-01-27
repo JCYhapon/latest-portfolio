@@ -2,7 +2,6 @@ import React from "react";
 import { intro } from "../../constants";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
-import { me } from "../assets";
 
 const hero = () => {
   return (
