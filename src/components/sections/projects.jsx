@@ -3,7 +3,7 @@ import React from "react";
 const projects = () => {
   return (
     <section id="projects" className="min-h-screen">
-      projects
+      for projects all main projects
     </section>
   );
 };
