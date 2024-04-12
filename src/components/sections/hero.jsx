@@ -13,7 +13,7 @@ const hero = () => {
         <div className="bottom-5">
           <div>
             <span className="text-[22px] font-kanit font-bold tracking-wider text-primaryFont mb-[10rem]">
-              Hello, they call me Yhaps.
+              Hello, they call me Yhap.
             </span>
             <h1 className="text-[62px] font-extrabold text-primaryFont drop-shadow-md leading-[5rem]">
               I <span className="text-[#00CC66]">design</span> and{" "}
