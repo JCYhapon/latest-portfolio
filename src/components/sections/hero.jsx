@@ -7,7 +7,7 @@ const hero = () => {
   return (
     <section
       id="about"
-      className="w-[60%] lg:min-h-[80vh] container mx-auto flex flex-row items-center justify-center mt-[-6rem]"
+      className="w-[60%] lg:min-h-[100vh] container mx-auto flex flex-row items-center justify-center mt-[-5.5rem]"
     >
       <div className="flex items-center gap-5">
         <div className="bottom-5">
