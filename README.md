@@ -1,4 +1,4 @@
-#🌟 Personal Portfolio
+# 🌟 Personal Portfolio
 Welcome to my personal portfolio! This web application showcases my projects, skills, and experiences.
 
 💻 Technologies Used
